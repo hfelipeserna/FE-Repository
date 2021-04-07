@@ -1,0 +1,23 @@
+/* Elaborado por: Hernán Felipe Serna Gómez
+   Curso: Font-end I
+   Digital House*/
+
+/*Selectores de etiqueta*/
+body{
+    margin: 0px;
+}
+
+footer{
+    
+}
+
+header{
+    background-color:#dddddd;
+    margin: auto;
+    text-align: center;
+}
+
+/*Selectores de id*/
+
+
+/*Selectores de clase*/
