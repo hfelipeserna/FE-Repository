@@ -3,12 +3,25 @@
    Digital House*/
 
 /*Selectores de etiqueta*/
+
 body{
     margin: 0px;
 }
 
+main{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
 footer{
-    
+    background-color: #1F497D;
+    color: #FFFFFF;
+    height: 35px;
+    font-family: 'Calibri', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
 }
 
 header{
@@ -17,7 +30,44 @@ header{
     text-align: center;
 }
 
+h1,h2{
+    background-color: #BFBFBF;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 8px; 
+}
+
+h1{
+    color: #1F477F;
+    font-size: 24px;
+    word-spacing: 20px;
+}
+
+h2{
+    color: #692425;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 /*Selectores de id*/
 
+#line-text-icon{
+    vertical-align: middle;
+}
+
+#LinkedinIco{
+    height: 20px;
+}
+
+#InstagramIco{
+    height: 20px;
+}
+
+#titulo-curriculo{
+    background-color: #BFBFBF;
+    justify-content: center;
+    height: 50px;
+}
 
 /*Selectores de clase*/
