@@ -4,6 +4,10 @@
 
 /*Selectores de etiqueta*/
 
+a:link, a:visited{
+    text-decoration: none;
+}
+
 body{
     margin: 0px;
 }
@@ -13,12 +17,13 @@ main{
     margin-right: 300px;
     margin-top: 40px;
     margin-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 footer{
     background-color: #1F497D;
     color: #FFFFFF;
-    height: 35px;
+    height: 40px;
     font-family: 'Calibri', Arial, Helvetica, sans-serif;
     font-size: 24px;
     text-align: center;
@@ -40,6 +45,8 @@ h1,h2{
 h1{
     color: #1F477F;
     font-size: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     word-spacing: 20px;
 }
 
@@ -50,6 +57,10 @@ h2{
     margin-bottom: 25px;
 }
 
+ul,dl{
+    line-height: 18px;
+}
+
 /*Selectores de id*/
 
 #line-text-icon{
@@ -57,17 +68,30 @@ h2{
 }
 
 #LinkedinIco{
-    height: 20px;
+    height: 15px;
 }
 
 #InstagramIco{
-    height: 20px;
-}
-
-#titulo-curriculo{
-    background-color: #BFBFBF;
-    justify-content: center;
-    height: 50px;
+    height: 15px;
 }
 
 /*Selectores de clase*/
+
+.texto-italic{
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.text-type-1{
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.text-type-2{
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
